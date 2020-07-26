@@ -130,7 +130,7 @@ for surveyURL in surveyStartLinks:
 #write file download links to downloadLinks.txt     
 with open('downloadLinks.txt', 'w') as downloadLinksFile:
         for downloadLink in downloadLinks:
-                downloadLinksFile.write(downloadLink)
+                downloadLinksFile.write(downloadLink + "\n")
                 
 
 print("Next steps...")
