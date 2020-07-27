@@ -100,7 +100,7 @@ for surveyURL in surveyStartLinks:
                         }
 
                         data = '''{"survey_id":"!surveyIDHere!","view_id":"!viewIDHere!","exportjob":{"custom_filename":"!fileNameHere!","format":"pdf",
-                                        "email":"null@example.com","export_data":{"orientation":"portrait","include_openended":false,
+                                        "email":"null@example.com","export_data":{"orientation":"portrait","include_openended":true,
                                         "show_word_cloud":false,"dimension":"letter","zoomFactor":".95","forced_page_break":true,"marginTop":"15mm",
                                         "marginBottom":"15mm","headerSpacing":"3","footerSpacing":"2","phantomjs_pdf_enabled":false,"hide_branding":true,
                                         "multilingual":false,"use_cassandra":false,"respondent_count":17,"isCSVOnly":false,"package_type":"ADVANTAGE",
